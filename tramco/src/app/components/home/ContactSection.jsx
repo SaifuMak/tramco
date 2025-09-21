@@ -60,7 +60,7 @@ function ContactSection() {
                         <div className="w-[30%]   flex flex-col gap-3 z-10">
                             <div className=" w-full h-full rounded-3xl bg-cover bg-no-repeat  overflow-hidden bg-center relative "
                                 style={{ backgroundImage: "url('/image/home/island.png')" }}>
-                                <div className=" absolute inset-0 w-full  bg-gradient-to-t flex items-end from-dark-ash  to-dark-ash/20 ">
+                                <div className=" absolute inset-0 w-full  bg-gradient-to-t flex items-end from-[#001C4A] to-[#001C4A]/10 ">
                                     <div className=" space-y-2 p-6 ">
                                         <h6 className={` ${poppins.className}  text-xl xl:text-2xl font-medium`}>Quick Support:</h6>
                                         <div className="  font-light flex text-lg max-xl:text-sm">
@@ -76,7 +76,7 @@ function ContactSection() {
 
                             <div className=" w-full h-full rounded-3xl bg-cover bg-no-repeat  overflow-hidden bg-center relative "
                                 style={{ backgroundImage: "url('/image/home/island.png')" }}>
-                                <div className=" absolute inset-0 w-full  bg-gradient-to-t flex items-end from-dark-ash  to-dark-ash/20 ">
+                                <div className=" absolute inset-0 w-full  bg-gradient-to-t flex items-end from-[#001C4A] to-[#001C4A]/10 ">
                                     <div className=" space-y-2 p-6 ">
                                         <h6 className={` ${poppins.className}  text-xl xl:text-2xl font-medium`}>Business Hours:</h6>
                                         <div className="  font-light flex text-lg max-xl:text-sm">
