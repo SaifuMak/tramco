@@ -4,7 +4,7 @@ import React from 'react'
 
 function SustainabilitySection() {
     return (
-        <div className=" w-full h-auto relative overflow-hidden  bg-brand-blue my-28 justify-end  flex "  >
+        <div className=" w-full h-auto relative overflow-hidden  bg-brand-blue xl:my-28 lg:my-16 justify-end  flex "  >
 
             <div
                 className="absolute inset-0 h-full  bg-cover bg-no-repeat mt-10 w-6/12 bg-center opacity-5"
