@@ -7,6 +7,7 @@ import ProductsSection from "./components/home/ProductsSection";
 import SustainabilitySection from "./components/home/SustainabilitySection";
 import WhyChooseUs from "./components/home/WhyChooseUs";
 import ContactSection from "./components/home/ContactSection";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function Home() {
       <SustainabilitySection />
       <WhyChooseUs />
       <ContactSection/>
+      <Footer/>
 
     </>
   );

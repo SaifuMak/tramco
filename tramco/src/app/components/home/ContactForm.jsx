@@ -54,7 +54,7 @@ export default function ContactForm() {
                     <div className="absolute bottom-0 left-0 right-0 border bg-gradient-to-t from-[#001C4A]  rounded-3xl  to-transparent text-white  h-full flex items-end ">
                         <div className=" p-7">
                             <h2 className="2xl:text-5xl xl:text-4xl  text-3xl font-bold mb-2">Reach Out</h2>
-                            <p className=" text-lg  xl:text-xl font-light leading-relaxed mt-3 xl:mt-5">
+                            <p className=" text-base  xl:text-xl font-light leading-relaxed mt-3 xl:mt-5">
                                 Have a question or need our services? Get in touch with us today.
                                 Our team is ready to assist you anytime.
                             </p>
