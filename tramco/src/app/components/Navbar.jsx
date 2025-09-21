@@ -16,8 +16,8 @@ export default function Navbar() {
   return (
     <nav className=" bg-brand-blue  py-6 px-8">
       <div className="  w-full mx-auto px-6 flex items-center  justify-between h-20">
-        <div className="flex  mr-8 shrink-0">
-          <img src="/image/home/logo-main.svg" alt="TRAMCO" className="xl:h-16 h-10 object-contain xl:object-cover " />
+        <div className="flex  mr-8 shrink-0 xl:h-16 h-10 ">
+          <img src="/image/home/logo-main.svg" alt="TRAMCO" className=" h-full w-full object-contain xl:object-cover " />
         </div>
         <ul className="flex px-10 max-2xl:text-sm 2xl:space-x-16 space-x-7 justify-center text-black-24 flex-1">
           <li><Link href="/" className=" hover:text-[#0240A3] font-medium ">HOME</Link></li>
