@@ -69,7 +69,7 @@ export default function Footer() {
         <div className="w-full xl:w-11/12 font-light  mx-auto mt-8 xl:mt-20 flex flex-col md:flex-row px-8 rounded-2xl py-3 justify-between items-center bg-white/25">
           <p>
             © Copyright 2025 All rights reserved. | Designed by{" "}
-            <span className="text-white">Maktal</span>
+           <a href="https://maktalseo.com/" className="hover:underline"> <span className="text-white">Maktal</span></a>
           </p>
           <div className="flex gap-4 mt-2 md:mt-0">
             <a href="#" className="hover:underline ">
