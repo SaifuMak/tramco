@@ -3,30 +3,30 @@ import ServiceCard from './home/ServiceCard';
 
 function ServicesSection() {
 
-   const services = [
-  {
-    title: "Trading",
-    img: "/image/home/trading.png",
-    description:
-      "Providing trusted expertise in global trade of oil products, chemicals, and sustainable resources, helping businesses grow with confidence.",
-  },
-  {
-    title: "Marine",
-    img: "/image/home/marine.png",
-    description:
-      "Offering innovative marine solutions that ensure efficiency, safety, regulatory compliance, and sustainability across global waters worldwide.",
-  },
-  {
-    title: "Consulting",
-    img: "/image/home/consulting.png",
-    description:
-      "Delivering expert consulting services with tailored strategies, valuable insights, and sustainable practices to drive long-term business success.",
-  },
-];
+    const services = [
+        {
+            title: "Trading",
+            img: "/image/home/trading.png",
+            description:
+                "Your trusted and reliable source navigating the global trade of oil products, chemicals, and sustainable resources, driving your business forward.",
+        },
+        {
+            title: "Marine Services",
+            img: "/image/home/marine.png",
+            description:
+                "Providing expert guidance on marine operations, regulatory compliance, and efficient logistics, powered by deep industry insight.",
+        },
+        {
+            title: "Management Consultancies",
+            img: "/image/home/consulting.png",
+            description:
+                "Delivering strategic business solutions, operational optimization, and comprehensive project management tailored to our client’s success.",
+        },
+    ];
 
 
-    return (
-        <div className="w-full h-full  bg-brand-blue relative " >
+    return ( 
+        <div className="w-full h-full   bg-brand-blue relative " >
             <div
                 className="absolute inset-0 min-h-[140vh] bg-cover bg-no-repeat mt-10 w-full mx-auto bg-center opacity-25"
                 style={{ backgroundImage: "url('/image/home/service-pattern.png')" }}
@@ -38,7 +38,7 @@ function ServicesSection() {
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 mt-16 gap-12 w-11/12">
                     {services.map((item, index) => (
-                     <ServiceCard key={index} item={item}/>
+                        <ServiceCard key={index} item={item} />
                     ))}
                 </div>
             </div>

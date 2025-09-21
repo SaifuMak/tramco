@@ -23,10 +23,9 @@ function WelcomeSection() {
                         TRAMCO
                     </h2>
                     <p className=" 2xl:text-2xl xl:text-xl md:text-lg mb-6 font-light leading-8 md:leading-9 xl:leading-10  2xl:leading-11  text-brand-black ">
-                        Tramco is proud to stand at the forefront of excellence in trading, marine consultancy,
-                        and management services. Founded by visionary entrepreneurs in the Middle East,
-                        the company is built on a foundation of integrity, innovation, and an unwavering
-                        commitment to delivering sustainable value to clients, partners, and stakeholders alike.
+                        Tramco is proud to stand at the forefront of excellence in trading, marine consultancy, and management services.
+                        Founded by visionary entrepreneurs in the Middle East, the company is built on a foundation of integrity, innovation,
+                        and an unwavering commitment to delivering sustainable value to clients, partners, and stakeholders alike.
                     </p>
 
 
