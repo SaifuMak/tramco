@@ -17,7 +17,7 @@ export const footerLinks = {
     ],
     Marine: [
       { label: "Marine Services", href: "#" },
-      { label: "Mr.Ahmed to Fill", href: "#" },
+
     ],
     Consulting: [
       { label: "Environmental", href: "#" },

@@ -9,7 +9,7 @@ export default function Navbar() {
   const [showMegaMenu, setShowMegaMenu] = useState(false);
   const services = {
     Trading: ["Oil Products", "Chemicals", "Recycling", "LPG/LNG"],
-    Marine: ["Marine Services", "Mr.Ahmed to Fill"],
+    Marine: ["Marine Services"],
     Consulting: ["Environmental", "Sustainability & ESG", "Regulatory Compliance"],
   };
 
